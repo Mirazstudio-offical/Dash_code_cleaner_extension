@@ -3,6 +3,7 @@ class UltimateBlockCleaner {
         return {
             id: 'ultimateBlockCleaner',
             name: 'Чистильщик PRO',
+            blockIconURI: 'https://raw.githubusercontent.com/Mirazstudio-offical/Dash_code_cleaner_extension/refs/heads/main/extension_icon.png',
             color1: '#8B4513',
             color2: '#A0522D',
             blocks: [
@@ -85,3 +86,4 @@ class UltimateBlockCleaner {
 }
 
 Scratch.extensions.register(new UltimateBlockCleaner());
+
